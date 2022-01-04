@@ -1,5 +1,5 @@
 # small-world
-Code to generate higher-dimensional small world networks with arbitrary even mean degree. Developed in MATLAB R2018a, R2018b, R2019b, R2020a.
+Code to generate small world networks with arbitrary (positive integer) dimension and arbitrary (even) mean degree. Developed in MATLAB R2018a, R2018b, R2019b, R2020a.
 
 If you use this code in a publication, project, etc., then please cite:
 
