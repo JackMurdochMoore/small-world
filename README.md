@@ -3,7 +3,9 @@ Code to generate small world networks with arbitrary (positive integer) dimensio
 
 If you use this code in a publication, project, etc., then please cite:
 
-H. Wang, J.M. Moore, J. Wang, M. Small, J. Wang, H. Yang, C. Gu, "Epidemic dynamics on higher-dimensional small world networks," Applied Mathematics and Computation, in press.
+Haiying Wang, Jack Murdoch Moore, Michael Small, Jun Wang, Huijie Yang, Changgui Gu, Epidemic dynamics on higher-dimensional small world networks, Applied Mathematics and Computation, Volume 421, 2022, 126911.
+https://doi.org/10.1016/j.amc.2021.126911
+https://www.sciencedirect.com/science/article/pii/S0096300321009942
 
 The high school friendship networks considered in the study and here made available as "udry_adol_health_school_data.mat" were originally accessed (Nov. 2019) from the webpage of Prof. Linton C. Freeman:
 
