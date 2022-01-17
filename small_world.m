@@ -1,9 +1,10 @@
 % Generalisation of Watts-Strogatz (WS) small world model described in：
 % 
-% Haiying Wang, Jack Murdoch Moore, Jun Wang, and Michael Small, "The
-% distinct roles of initial transmission and retransmission in the
-% persistence of knowledge in complex networks," Applied Mathematics and
-% Computation, in press.
+% Haiying Wang, Jack Murdoch Moore, Michael Small, Jun Wang, Huijie Yang,
+% Changgui Gu, Epidemic dynamics on higher-dimensional small world
+% networks, Applied Mathematics and Computation, Volume 421, 2022, 126911.
+% https://doi.org/10.1016/j.amc.2021.126911
+% https://www.sciencedirect.com/science/article/pii/S0096300321009942
 %
 % Generate adjacency matrix of a version of WS small world
 % network with any positive integer dimension.
