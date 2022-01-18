@@ -243,6 +243,8 @@ for iiEdge = 1:numEdges
     end
 end
 
+assert(k == sum(A(:))/size(A, 1), 'There is a problem. The final mean degree k does not match the intended mean degree. Perhaps N is too small or D is too large to incorporate this value of k.');
+
 end
 
 %Find (randomly ordered) edge list from adjacency matrix.
