@@ -1,0 +1,62 @@
+Copied from archived version of webpage of Prof. Linton C. Freeman, accessed 4 May 2022
+https://web.archive.org/web/20210115130726/http://moreno.ss.uci.edu/data.html#adhealth
+
+
+
+
+
+UDRY,HARRIS--ADOLESCENT HEALTH NETWORKS
+DATASETS Linked list formats of friendship choices made by students from 84 communities. Each community contains either 1 or two junior high or high schools. The numbers of students in each community vary. Those numbers range from 25 to 2587. In each case the data include friendship choices and various individual characteristics.
+
+COMM 1 and COMM 1_ATT— COMM 2 and COMM 2_ATT— COMM 3 and COMM 3_ATT
+COMM 4 and COMM 4_ATT— COMM 5 and COMM 5_ATT— COMM 6 and COMM 6_ATT
+COMM 7 and COMM 7_ATT— COMM 8 and COMM 8_ATT— COMM 9 and COMM 9_ATT
+COMM10 and COMM10_ATT— COMM11 and COMM11_ATT— COMM12 and COMM12_ATT
+COMM13 and COMM13_ATT— COMM14 and COMM14_ATT— COMM15 and COMM15_ATT
+COMM16 and COMM16_ATT— COMM17 and COMM17_ATT— COMM18 and COMM18_ATT
+COMM19 and COMM19_ATT— COMM20 and COMM20_ATT— COMM21 and COMM21_ATT
+COMM22 and COMM22_ATT— COMM23 and COMM23_ATT— COMM24 and COMM24_ATT
+COMM25 and COMM25_ATT— COMM26 and COMM26_ATT— COMM27 and COMM27_ATT
+COMM28 and COMM28_ATT— COMM29 and COMM29_ATT— COMM30 and COMM30_ATT
+COMM31 and COMM31_ATT— COMM32 and COMM32_ATT— COMM33 and COMM33_ATT
+COMM34 and COMM34_ATT— COMM35 and COMM35_ATT— COMM36 and COMM36_ATT
+COMM37 and COMM37_ATT— COMM38 and COMM38_ATT— COMM39 and COMM39_ATT
+COMM40 and COMM40_ATT— COMM41 and COMM41_ATT— COMM42 and COMM42_ATT
+COMM43 and COMM43_ATT— COMM44 and COMM44_ATT— COMM45 and COMM45_ATT
+COMM46 and COMM46_ATT— COMM47 and COMM47_ATT— COMM48 and COMM48_ATT
+COMM49 and COMM49_ATT— COMM50 and COMM50_ATT— COMM51 and COMM51_ATT
+COMM52 and COMM52_ATT— COMM53 and COMM53_ATT— COMM54 and COMM54_ATT
+COMM55 and COMM55_ATT— COMM56 and COMM56_ATT— COMM57 and COMM57_ATT
+COMM58 and COMM58_ATT— COMM59 and COMM59_ATT— COMM60 and COMM60_ATT
+COMM61 and COMM61_ATT— COMM62 and COMM62_ATT— COMM63 and COMM63_ATT
+COMM64 and COMM64_ATT— COMM65 and COMM65_ATT— COMM66 and COMM66_ATT
+COMM67 and COMM67_ATT— COMM68 and COMM68_ATT— COMM69 and COMM69_ATT
+COMM70 and COMM70_ATT— COMM71 and COMM71_ATT— COMM72 and COMM72_ATT
+COMM73 and COMM73_ATT— COMM74 and COMM74_ATT— COMM75 and COMM75_ATT
+COMM76 and COMM76_ATT— COMM77 and COMM77_ATT— COMM78 and COMM78_ATT
+COMM79 and COMM79_ATT— COMM80 and COMM80_ATT— COMM81 and COMM81_ATT
+COMM82 and COMM82_ATT— COMM83 and COMM83_ATT— COMM84 and COMM84_ATT
+DESCRIPTION
+
+The ADD HEALTH data are constructed from the in-school questionnaire; 90,118 students representing 84 communities took this survey in 1994-95. Some communities had only one school; others had two. Where there are two schools in a community students from one school were allowed to name friends in the other, the "sister school."
+
+Each student was given a paper-and-pencil questionnaire and a copy of a roster listing every student in the school and, if the community had two schools, the student s provided with the roster of the "sister" school. The name generator asked about five male and five female friends separately. The question was, "List your closest (male/female) friends. List your best (male/female) friend first, then your next best friend, and so on. (girls/boys) may include (boys/girls) who are friends and (boy/girl) friends."
+For each friend named, the student was asked to check off whether he/she participated in any of five activities with the friend. These activities were:
+
+1. you went to (his/her) house in the last seven days.
+2. you met (him/her) after school to hang out or go somewhere in the last seven days.
+3. you spent time with (him/her) last weekend.
+4. you talked with (him/her) about a problem in the last seven days.
+5. you talked with (him/her) on the telephone in the last seven days.
+
+These activities were summed to create a valued network. Ties range in value from 1, meaning the student nominated the friend but reported no activities, to 6, meaning the student nominated the friend and reported participating in all five activities with the friend.
+
+Because nominations to friends in the sister school were allowed, the networks here are reported at the community level. When two schools were present in a community the data file includes a node-level indicator for school code, so one can easily extract choices from the separate schools.
+
+The friendship choices are recorded in the COMM files. And the COMM_ATT files include the sex, race, grade in school and, in communities that have two schools, the school code.
+
+Sex is coded 1=male, 2=female, 0=unreported. Race is coded 1=white, 2=black, 3=hispanic, 4=asian, 5=mixed/other, 0=unreported. Grade is recorded as a number between 7 and 12 with 0=unreported. And school codes are 0 and 1 when two schools were in a single community.
+
+REFERENCE
+
+Moody, James, "Peer influence groups: identifying dense clusters in large networks," Social Networks, 2001, 23: 261-283.
