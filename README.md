@@ -16,3 +16,5 @@ http://moreno.ss.uci.edu/data.html#adhealth
 If you use these data sets in a publication, project, etc., then I would suggest citing:
 
 S. Bearman, J. Moody, K. Stovel, "Chains of affection: The structure of adolescent romantic and sexual networks," American Journal of Sociology 110 (2004) 44–91.
+Moody, James. "Peer influence groups: identifying dense clusters in large networks." Social networks 23(4) (2001): 261-283.
+The national longitudinal study of adolescent health (Add Health), designed by J. Richard Udry, Peter S. Bearman, and Kathleen Mullan Harris.
